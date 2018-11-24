@@ -1,28 +1,58 @@
-import {List, Skeleton, Avatar} from "antd";
+import {List, Skeleton, Avatar, Icon, Popover, Row, Col, Button} from "antd";
 
-export function RevisionPopup() {
+function ItemMenu() {
+  const MenuContent = function() {
+    return (
+      <Row style={{width: "200px"}} gutter={16}>
+        <Col span={8}>
+          <Row>
+            <Col>
+              <Button>
+                <Icon type="fast-forward" />
+              </Button>
+            </Col>
+          </Row>
+
+        </Col>
+        <Col span={8}>
+          <Row>
+            <Col>
+              <Button>
+                <Icon type="edit" />
+              </Button>
+            </Col>
+          </Row>
+
+        </Col>
+        <Col span={8}>
+          <Row>
+            <Col>
+              <Button type="danger">
+                <Icon type="delete" />
+              </Button>
+            </Col>
+          </Row>
+
+        </Col>
+      </Row>
+    )
+  }
+
+  return (
+    <Popover placement="bottom" content={MenuContent()}>
+      <Icon type="down-circle" />
+    </Popover>
+  )
+}
+
+export function RevisionPopup(props) {
   return (
     <List
       className="demo-loadmore-list"
       itemLayout="horizontal"
-      dataSource={[{
-        subject: "Physics",
-        concept: "Electricity: Resistivity of an element/compound",
-        icon: "https://static.thenounproject.com/png/98751-200.png"
-      },
-        {
-          subject: "Chemistry",
-          concept: "Dative covalent bonding",
-          icon: "https://cdn0.iconfinder.com/data/icons/industrial-icons/164/5-512.png"
-        },
-        {
-          subject: "Further Maths",
-          concept: "Equation of a plane",
-          icon: "https://png.pngtree.com/svg/20170124/function_1249798.png"
-        }
-      ]}
+      dataSource={props.subjectData }
       renderItem={item => (
-        <List.Item actions={[<a>edit</a>, <a>more</a>]}>
+        <List.Item actions={[ItemMenu()]}>
           <Skeleton avatar title={false} loading={false} active>
             <List.Item.Meta
               avatar={<Avatar src={item.icon} />}

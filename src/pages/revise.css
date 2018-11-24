@@ -1,0 +1,11 @@
+
+.normal {
+  background: #AA79F2;
+
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
