@@ -33,12 +33,12 @@ function Dashboard(props) {
       <Row>
         <Col span={6}>
           <Card title="Concepts due" bordered={true} extra={<Button htmlType={"button"} onClick={ShowPreview} type={"primary"}><Icon type="build" /> Revise</Button>}>
-              <Progress type="circle" percent={50} format={percent => `5/10`} />
+              <Progress type="circle" percent={50} format={percent => percent/10 + `/10`} />
           </Card>
         </Col>
         <Col span={6}>
           <Card title="Retain rate" bordered={true} extra={<Button htmlType={"button"} type={"primary"}><Icon type="fund" /> Details</Button>}>
-            <Progress type="circle" percent={75} />
+            <Progress type="circle" percent={24} />
           </Card>
         </Col>
         <Col span={6}>

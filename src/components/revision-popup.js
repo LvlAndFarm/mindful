@@ -56,7 +56,7 @@ export function RevisionPopup(props) {
           <Skeleton avatar title={false} loading={false} active>
             <List.Item.Meta
               avatar={<Avatar src={item.icon} />}
-              title={<a href="https://ant.design">{item.subject}</a>}
+              title={<a href="https://ant.design">{item.subject} ({item.duration})</a>}
               description={item.concept}
             />
           </Skeleton>

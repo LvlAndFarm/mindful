@@ -3,18 +3,31 @@ export default {
   state: {
     pending: [{
       subject: "Physics",
-      concept: "Electricity: Resistivity of an element/compound",
-      icon: "https://static.thenounproject.com/png/98751-200.png"
+      concept: "Electricity: Potential difference",
+      icon: "https://static.thenounproject.com/png/98751-200.png",
+      duration: "10 mins",
+      difficulty: "MEDIUM"
     },
       {
         subject: "Chemistry",
         concept: "Dative covalent bonding",
-        icon: "https://cdn0.iconfinder.com/data/icons/industrial-icons/164/5-512.png"
+        icon: "https://cdn0.iconfinder.com/data/icons/industrial-icons/164/5-512.png",
+        duration: "10 mins",
+        difficulty: "EASY"
       },
       {
         subject: "Further Maths",
         concept: "Equation of a plane",
-        icon: "https://png.pngtree.com/svg/20170124/function_1249798.png"
+        icon: "https://png.pngtree.com/svg/20170124/function_1249798.png",
+        duration: "15 mins",
+        difficulty: "MEDIUM"
+      },
+      {
+        subject: "Maths",
+        concept: "Scalar product",
+        icon: "https://png.pngtree.com/svg/20160622/math_777518.png",
+        duration: "10 mins",
+        difficulty: "EASY"
       }
     ],
 

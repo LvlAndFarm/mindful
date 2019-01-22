@@ -9,3 +9,16 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.loading_spinner {
+  text-align: center;
+  /*background: rgba(0,0,0,0.05);*/
+  border-radius: 4px;
+  padding: 30px 50px;
+  margin-bottom: 20px;
+}
+
+.countdown_timer {
+  font-size: 58px;
+  color: green;
+}
