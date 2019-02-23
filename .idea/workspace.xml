@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d8432bf-2818-4f61-bf02-4c6b0ca5dc88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/models/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/note-editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/note-editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/revision-resources.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/revision-resources.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/revision-popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/revision-popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/revise.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/revise.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/revise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/revise.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,74 +64,127 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1916213913">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="4" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="347" />
+          <entry key="js" value="3398" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="347" />
+          <entry key="JavaScript" value="3398" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="4" />
+          <entry key="js" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="4" />
+          <entry key="JavaScript" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="13" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/model.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/revise.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="15" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="82" lean-forward="true" selection-start-line="7" selection-end-line="82" />
+            <state relative-caret-position="258">
+              <caret line="122" column="73" lean-forward="true" selection-start-line="122" selection-start-column="73" selection-end-line="122" selection-end-column="73" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/products.css">
+        <entry file="file://$PROJECT_DIR$/src/components/revision-resources.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/revise.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="212">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/revise.css">
+        <entry file="file://$PROJECT_DIR$/src/models/model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            <state relative-caret-position="506">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/.umi/router.js">
+        <entry file="file://$PROJECT_DIR$/src/components/revision-resources.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="69">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/note-editor.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/note-editor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/revise.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -135,8 +192,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/products.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" />
+            <state relative-caret-position="92">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -144,8 +201,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/revision-popup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+            <state relative-caret-position="644">
+              <caret line="28" column="17" selection-end-line="67" />
             </state>
           </provider>
         </entry>
@@ -153,8 +210,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="276">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -170,6 +227,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -181,12 +239,17 @@
         <option value="$PROJECT_DIR$/.umirc.js" />
         <option value="$PROJECT_DIR$/src/pages/index/model.js" />
         <option value="$PROJECT_DIR$/src/pages/products.css" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/products.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/components/revision-popup.js" />
+        <option value="$PROJECT_DIR$/src/pages/products.js" />
+        <option value="$PROJECT_DIR$/src/components/revision-resources.css" />
+        <option value="$PROJECT_DIR$/src/components/revision-resources.js" />
+        <option value="$PROJECT_DIR$/src/components/note-editor.js" />
+        <option value="$PROJECT_DIR$/src/components/note-editor.css" />
         <option value="$PROJECT_DIR$/src/pages/revise.js" />
         <option value="$PROJECT_DIR$/src/pages/revise.css" />
+        <option value="$PROJECT_DIR$/src/models/model.js" />
       </list>
     </option>
   </component>
@@ -206,7 +269,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="25" />
     <option name="width" value="1400" />
@@ -218,65 +281,57 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="mindful-antd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mindful-antd" type="462c0819:PsiDirectoryNode" />
+              <item name="mindful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mindful" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mindful-antd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mindful-antd" type="462c0819:PsiDirectoryNode" />
-              <item name="mock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mindful-antd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mindful-antd" type="462c0819:PsiDirectoryNode" />
+              <item name="mindful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mindful" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mindful-antd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mindful-antd" type="462c0819:PsiDirectoryNode" />
+              <item name="mindful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mindful" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mindful-antd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mindful-antd" type="462c0819:PsiDirectoryNode" />
+              <item name="mindful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mindful" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mindful-antd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mindful-antd" type="462c0819:PsiDirectoryNode" />
+              <item name="mindful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mindful" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mindful-antd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mindful-antd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name=".umi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Atlassian/SourceTree/git_local/bin/git.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="C:\dev\mindful-antd\node_modules\eslint" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\dev\mindful\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="C:\dev\mindful\node_modules\eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -310,17 +365,34 @@
       <workItem from="1541954786352" duration="617000" />
       <workItem from="1541955644131" duration="10444000" />
       <workItem from="1543011463496" duration="10059000" />
+      <workItem from="1544717611651" duration="1110000" />
+      <workItem from="1545833390952" duration="106000" />
+      <workItem from="1546616376952" duration="331000" />
+      <workItem from="1546893015022" duration="858000" />
+      <workItem from="1546895183961" duration="998000" />
+      <workItem from="1546896402412" duration="1158000" />
+      <workItem from="1546897736440" duration="1038000" />
+      <workItem from="1548180387044" duration="852000" />
+      <workItem from="1548587349015" duration="762000" />
+      <workItem from="1548588575564" duration="620000" />
+      <workItem from="1549367461245" duration="947000" />
+      <workItem from="1549368697952" duration="1142000" />
+      <workItem from="1549369927114" duration="126000" />
+      <workItem from="1549464318993" duration="970000" />
+      <workItem from="1549628504019" duration="1170000" />
+      <workItem from="1549629721899" duration="1150000" />
+      <workItem from="1549630960539" duration="1063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21120000" />
+    <option name="totallyTimeSpent" value="35521000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="25" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -332,7 +404,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -370,9 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -383,34 +452,18 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/.umi/initDva.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/.umi/umi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/global.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="82" lean-forward="true" selection-start-line="7" selection-end-line="82" />
+        <state relative-caret-position="805">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
@@ -419,22 +472,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/products.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.css">
+    <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/.umi/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="92">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -443,36 +496,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" />
+        <state relative-caret-position="92">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/revision-popup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="644">
+          <caret line="28" column="17" selection-end-line="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/note-editor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/note-editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/revise.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="258">
+          <caret line="122" column="73" lean-forward="true" selection-start-line="122" selection-start-column="73" selection-end-line="122" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/revision-resources.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/revise.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state relative-caret-position="299">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/revision-resources.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
         </state>
       </provider>
     </entry>

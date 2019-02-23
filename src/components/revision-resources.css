@@ -1,0 +1,9 @@
+.notepad-show {
+  transition: all 0.4s ease-in;
+  transform: scale(1.6);
+  opacity: 0;
+}
+
+.resourcebox {
+  transform-origin: top;
+}

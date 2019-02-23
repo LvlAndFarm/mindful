@@ -19,6 +19,9 @@
 }
 
 .countdown_timer {
-  font-size: 58px;
+  font-size: 26px;
   color: green;
+  position: absolute;
+  top: 5em;
+  right: 3em;
 }
